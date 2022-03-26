@@ -123,26 +123,27 @@ function updateOutput4() {
 //then green
 
 var description = $(".description");
-var currentTime = moment().format('LT');
+var currentTime = moment().format("h");
+
 //var hour = moment().format('LT');
 
 description.each(function () {
-    var hour = $(description).css("id");
-
+    var hour = $(this).parent().attr("id").split("hour")[1];
+    console.log(currentTime, hour);
     if (hour === currentTime) {
-        $(description).addClass("present");
-        $(description).removeClass("future");
-        $(description).removeClass("past");
+        $(this).addClass("present");
+        $(this).removeClass("future");
+        $(this).removeClass("past");
     }
     else if (hour < currentTime) {
-        $(description).addClass("past");
-        $(description).removeClass("future");
-        $(description).removeClass("present");
+        $(this).addClass("past");
+        $(this).removeClass("future");
+        $(this).removeClass("present");
     }
     else {
-        $(description).addClass("future");
-        $(description).removeClass("past");
-        $(description).removeClass("present");
+        $(this).addClass("future");
+        $(this).removeClass("past");
+        $(this).removeClass("present");
     }
 });
 
