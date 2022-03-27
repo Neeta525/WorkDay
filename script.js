@@ -123,19 +123,20 @@ function updateOutput4() {
 //then green
 
 var description = $(".description");
-var currentTime = moment().format("h");
+var currentTime = moment().hour();
 
 //var hour = moment().format('LT');
 
 description.each(function () {
     var hour = $(this).parent().attr("id").split("hour")[1];
-    console.log(currentTime, hour);
-    if (hour === currentTime) {
+    console.log(parseInt(hour));
+//    console.log(currentTime, hour);
+    if (parseInt(hour) === currentTime) {
         $(this).addClass("present");
         $(this).removeClass("future");
         $(this).removeClass("past");
     }
-    else if (hour < currentTime) {
+    else if (parseInt(hour) < currentTime) {
         $(this).addClass("past");
         $(this).removeClass("future");
         $(this).removeClass("present");

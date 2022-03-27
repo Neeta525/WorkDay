@@ -13,7 +13,7 @@ This application is available on most browsers.
 ## Usage
 
 Screenshots :camera:
- 
+![alt text](/images/Work%20Day%20Scheduler.png)
 
 ## Built with
 - HTML
