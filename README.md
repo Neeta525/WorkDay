@@ -8,7 +8,8 @@ This daily planner allows you to create a daily schedule. The current day is dis
 
 ## Installation
 
-This application is available on most browsers.
+This application is available on most browsers. 
+Check out it out here :point_right: [Deployed Link](https://neeta525.github.io/WorkDay/)
 
 ## Usage
 
@@ -18,6 +19,6 @@ Screenshots :camera:
 ## Built with
 - HTML
 - CSS
-- JAvascript
+- JavaScript
 
 
