@@ -16,9 +16,21 @@ Check out it out here :point_right: [Deployed Link](https://neeta525.github.io/W
 Screenshots :camera:
 ![alt text](/images/Work%20Day%20Scheduler.png)
 
-## Built with
+#Credits
+
+## Author
+- Anita Chavez
+- :briefcase: [Portfolio](https://neeta525.github.io/Portfolio25/)
+- :octocat: [GitHub](https://github.com/Neeta525)
+
+
+## Built With:
 - HTML
 - CSS
 - JavaScript
+
+## License
+
+- MIT
 
 
