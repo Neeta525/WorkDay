@@ -13,7 +13,7 @@ Check out it out here :point_right: [Deployed Link](https://neeta525.github.io/W
 
 ## Usage
 
-Screenshots :camera:
+## Screenshots :camera:
 ![alt text](/images/Work%20Day%20Scheduler.png)
 
 # Credits
